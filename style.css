@@ -182,7 +182,6 @@ footer div img{
 
 #burger{
     display: none;
-    text-align: center;
 }
 
 
@@ -193,7 +192,9 @@ footer div img{
     #burger{
         font-size: 2em;
         padding: 0.5em;
-        display: inline-block;
+        position: absolute;
+        right: 0;
+        display: block;
     }
     main{
         padding:0;
@@ -218,11 +219,27 @@ footer div img{
     footer h3{
         text-align: center;
     }
-    footer form .inscrire{
-        display: block;
+    footer input{
+        width: 100%;
+        margin-bottom: 15px;
     }
     footer form{
         padding: 10px;
         margin: auto;
+    }
+    .arrow-down{
+        display: none;
+    }
+    footer section:first-of-type div img{
+       width: 100%;
+    }
+    footer div{
+        text-align: center;
+    }
+    p{
+        margin-right: -20px;
+    }
+    footer button{
+        width: 100%;
     }
 }
